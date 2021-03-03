@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "CBRoster",
-    "slug": "CBRoster",
+    "name": "Comic Book Roster",
+    "slug": "Comic-Book-Roster",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#282c34"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#282c34"
+      },
+      "package": "com.kevilondo.ComicBookRoster"
     },
     "web": {
       "favicon": "./assets/favicon.png"
